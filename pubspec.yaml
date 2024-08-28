@@ -1,0 +1,35 @@
+name: my_app
+description: A new Flutter project.
+
+# The following line ensures that the correct version of Flutter is used.
+# If you have already defined a version for your flutter tool, you can
+# remove this line. Otherwise, define the version here.
+environment:
+  sdk: '^3.5.0'
+
+# Dependencies declare other packages that this project depends on.
+dependencies:
+  dots_indicator: ^3.0.0
+  flutter:
+    sdk: flutter
+  flutter_signin_button: ^2.0.0
+  get: ^4.6.6
+  google_fonts: ^6.2.1
+  provider: ^6.1.2
+  flutter_bloc: ^8.0.1
+  http: ^1.0.0
+  meta: ^1.7.0
+ 
+
+# For web development, you can add additional dependencies here
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# To add assets to your application, add an assets section, like this:
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/google_fonts/
+    - assets/images/
+    - assets/icons/
